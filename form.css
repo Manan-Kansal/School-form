@@ -1,0 +1,58 @@
+body{
+    background-color: skyblue;
+}
+img{
+    width: 49.5%;
+    margin-left: 359px;
+    border-radius: 10px;
+}
+.heading{
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 49%;
+    border-radius: 10px;
+    padding-left: 10px;
+    
+}
+#subheading{
+    font-size: 30px;
+    color: brown;
+}
+.questions{
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    font-size: 20px;
+    width: 49%;
+}
+.questions hr{
+    width: 50%;
+    margin-left: 0.5%;
+}
+.questions span{
+    color: red;
+}
+#answers{
+    border-style: none;
+    background-color: white;
+}
+#submit{
+    margin-left: 359px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+#reset{
+    margin-left: 35%;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border-style: none;
+}

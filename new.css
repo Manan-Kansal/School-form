@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://t3.ftcdn.net/jpg/05/82/83/28/360_F_582832850_OupkGDEefrwiwBFsUiHyZ9rhzkJAqSKL.jpg);
+    background-size: 100%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: black;
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.logo{
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4%;
+}
+
+.logo img{
+    width: 45%;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+
+.rightnav{
+    width: 50%;
+    text-align: center;
+}
+
+.section{
+    height: 100vh;
+}
+
+.mainbox{
+     max-width: 50%;
+     height: 80%;
+     margin: auto;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.firsthalf{
+    /* padding: 0 5px; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.firsthalf button{
+    width: 50%;
+    margin-left: 20%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-style: none;
+    border: 2px solid black;
+}
+
+.sechalf{
+    width: 30%;
+}
+.sechalf img{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+.para{
+     max-width: 85%;
+     height: 80%;
+     margin: auto;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.para1{
+    width: 85%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para1 img{
+    width: 10%;
+    display: block;
+    margin: auto;
+    float: left;
+}
+.para2{
+    width: 85%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para2 img{
+    width: 10%;
+    display: block;
+    margin: auto;
+    float: right;
+}
+.para3{
+    width: 85%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para3 img{
+    width: 10%;
+    display: block;
+    margin: auto;
+    float: left;
+}
